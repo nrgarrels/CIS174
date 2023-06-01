@@ -1,0 +1,24 @@
+﻿@model responsive 
+@{
+ViewBag.Title = "Age Calculator"; 
+}
+
+<h1>Age Calculator</h1> 
+<form asp-action="Index" method="post"> 
+    <div>
+        <label asp-for="name">Name:</label> <input asp-for="name" />
+    </div>
+
+    <div>
+        <label asp-for="BirthYear">Birth Year:</label> 
+        <input asp-for="BirthYear" />
+    </div> 
+
+    <div>
+    <label>Age:</label> 
+    <label>@ViewBag.FV.ToString()</label> 
+    </div>
+
+    <button type="submit">Calculate</button> 
+    <a asp-action="Index">Clear</a>
+</form>

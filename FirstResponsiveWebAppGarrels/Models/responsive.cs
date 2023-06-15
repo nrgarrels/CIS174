@@ -23,7 +23,23 @@ namespace FirstResponsiveWebAppGarrels.Models
 
             return ageString;
             }
+        public static String AgeThisYear(string name, int BirthYear)
+        {
+            if (BirthYear <= EndYear)
+            {
+                int age = EndYear - BirthYear;
+
+                string ageString = name + " will be " + age + " this Year!";
+
+                return ageString;
+            }
+            else {
+
+                return "Invalid Birth Year";
+            }
+        
         }
+    }
 }
 
 

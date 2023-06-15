@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FirstResponsiveWebAppGarrels/1.0.0": {
+        "runtime": {
+          "FirstResponsiveWebAppGarrels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FirstResponsiveWebAppGarrels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
